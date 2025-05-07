@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Function to partition the array
+// Function to partition the arrays
 int partition(int* arr, int low, int high) {
     int pivot = *(arr + high); // Choose the last element as pivot
     int i = low - 1; // Pointer for the smaller element
