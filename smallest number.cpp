@@ -17,6 +17,7 @@ int findSmallestNumber(int numbers[], int size) {
 
     return smallest; 
 }
+//
 
 int main() {
     int numbers[] = {34, 15, 88, 2, 7};
