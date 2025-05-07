@@ -34,7 +34,7 @@ int findThirdLargest(int numbers[], int size) {
 
     return thirdLargest;
 }
-
+//
 int main() {
     int numbers[] = {34, 15, 88, 2, 7};
     int size = sizeof(numbers) / sizeof(numbers[0]); 
