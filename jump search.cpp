@@ -18,7 +18,7 @@ int jumpSearch(int arr[], int size, int target)
         }
     }
 
-    // Perform linear search within the block
+    // Perform linear search within the blocks
     for (int i = prev; i < step && i < size; i++) 
     {
         if (arr[i] == target) {
