@@ -173,7 +173,7 @@ Quick sort is a divide-and-conquer algorithm that works by:
 g++ quick_sort.cpp -o quick_sort
 2. Execute the program:
 ./quick_sort
-3. Expected Output:
+3. Expected Output
 Original Array: 64 34 25 12 22 11 90 5 3 1 
 Sorted Array (Quick Sort): 1 3 5 11 12 22 25 34 64 90
 ## How the Code Works

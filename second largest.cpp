@@ -12,7 +12,7 @@ int findSecondLargest(int numbers[], int size) {
     int largest = -2147483648;
     int secondLargest = -2147483648; 
 
-    // Iterate through the array
+
     for (int i = 0; i < size; i++) {
         if (numbers[i] > largest) {
             secondLargest = largest; 
