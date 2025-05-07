@@ -6,7 +6,7 @@ private:
     int* table;
     int size;
 
-    // Simple hash function
+    // Simple hash functions
     int hashFunction(int key) 
     {
         return key % size;
