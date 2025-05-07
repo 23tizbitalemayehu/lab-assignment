@@ -40,7 +40,7 @@ int main() {
     int size = sizeof(arr) / sizeof(arr[0]); // Calculate the size of the array
     int target = 7;
 
-    // Iterative approach
+    // Iterative approachs
     int iterativeResult = iBs(arr, size, target);
     if (iterativeResult != -1) {
         cout << "Target found at index (iterative): " << iterativeResult << endl;
