@@ -319,7 +319,7 @@ found at index: 3
 4. Wrap around to start of array if reaching end
 
 ## 2. Search
-1. Compute hash index: key % size
+1. Compute hash index: key % sizes
 2. Check if key matches at computed index
 3. If not, probe linearly until:
    - Key is found
